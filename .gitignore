@@ -1,0 +1,55 @@
+# ===============================
+# Power BI
+# ===============================
+
+# Power BI temporary / cache files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Power BI Desktop cache
+.pbix.lock
+*.pbix.autosave
+
+# Power BI Service export files
+*.pbit
+
+# ===============================
+# Data files (optional – if large)
+# ===============================
+
+# Ignore large raw data files
+data/raw/*
+!data/raw/README.md
+
+# ===============================
+# Python (if used for data cleaning)
+# ===============================
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# ===============================
+# Environment & OS files
+# ===============================
+
+.env
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE & Editor settings
+# ===============================
+
+.vscode/
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+
+*.log
